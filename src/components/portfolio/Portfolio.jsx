@@ -15,8 +15,10 @@ function Portfolio() {
                                     <img src={item.image} alt="" />
                                 </div>
                                 <h3>This is a portfolio item title</h3>
-                                <a href={item.github} className='btn'>Github</a>
-                                <a href={item.projectLink} className='btn btn-primary' target='blank'>Live Demo</a>
+                                <div className="portfolio__item-cta">
+                                    <a href={item.github} className='btn'>Github</a>
+                                    <a href={item.projectLink} className='btn btn-primary' target='blank'>Live Demo</a>
+                                </div>
                             </article>
                         )
                     })
