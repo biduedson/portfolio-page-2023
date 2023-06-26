@@ -30,5 +30,35 @@
             "description": "React, JSX, Tailwind, Jest",
             "url": "http://google.com"
         }
+    ],
+    "frontEndSkills":[
+        
+            
+                {
+                    "language":"HTML",
+                    "expecience":"Avanced"
+                },
+                {
+                    "language":"CSS",
+                    "expecience":"Avanced"
+                },
+                {
+                    "language":"Sass",
+                    "expecience":"Avanced"
+                },
+                {
+                    "language":"Javascript",
+                    "expecience":"Avanced"
+                },
+                {
+                    "language":"ReactJs",
+                    "expecience":"Avanced"
+                },
+                {
+                    "language":"NextJs",
+                    "expecience":"Avanced"
+                }
+            
+        
     ]
 }

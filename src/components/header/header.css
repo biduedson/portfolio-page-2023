@@ -31,11 +31,11 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-prymary);
+  background: var(--color-primary);
 }
 
 .me {
-  background: linear-gradient(var(--color-prymary), transparent);
+  background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -63,7 +63,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .header__socials,
