@@ -4,6 +4,13 @@ import IMG3 from '../assets/portfolio3.jpg'
 import IMG4 from '../assets/portfolio4.jpg'
 import IMG5 from '../assets/portfolio5.png'
 import IMG6 from '../assets/portfolio6.jpg'
+
+import AVTR1 from '../assets/avatar1.jpg'
+import AVTR2 from '../assets/avatar2.jpg'
+import AVTR3 from '../assets/avatar3.jpg'
+import AVTR4 from '../assets/avatar4.jpg'
+
+
 export const frontEndSkills = [
     {
         id: 1,
@@ -68,6 +75,7 @@ export const backEndSkills = [
 export const portfolio = [
     {
         id: 1,
+        title: 'Seu titulo aqui',
         image: IMG1,
         name: 'Teste1',
         link: 'https://github.com/biduedson',
@@ -75,6 +83,7 @@ export const portfolio = [
     },
     {
         id: 2,
+        title: 'Seu titulo aqui',
         image: IMG2,
         name: 'Teste2',
         link: 'https://github.com/biduedson',
@@ -83,6 +92,7 @@ export const portfolio = [
     {
         id: 3,
         image: IMG3,
+        title: 'Seu titulo aqui',
         name: 'Teste3',
         link: 'https://github.com/biduedson',
         projectLink: 'https://github.com/biduedson'
@@ -90,6 +100,7 @@ export const portfolio = [
     {
         id: 4,
         image: IMG4,
+        title: 'Seu titulo aqui',
         name: 'Teste4',
         link: 'https://github.com/biduedson',
         projectLink: 'https://github.com/biduedson'
@@ -97,6 +108,7 @@ export const portfolio = [
     , {
         id: 1,
         image: IMG5,
+        title: 'Seu titulo aqui',
         name: 'Teste5',
         link: 'https://github.com/biduedson',
         projectLink: 'https://github.com/biduedson'
@@ -104,8 +116,45 @@ export const portfolio = [
     , {
         id: 1,
         image: IMG6,
+        title: 'Seu titulo aqui',
         name: 'Teste6',
         github: 'https://github.com/biduedson',
         projectLink: 'https://github.com/biduedson'
     }
+]
+
+export const testimonials = [
+    {
+        id: 1,
+        avatar: AVTR1,
+        name: 'Tina Snow',
+        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Unde inventore explicabo id, assumenda ipsam voluptas quae
+        hic iure facilis iusto fugiat cumque debitis quia maxime animi.`
+    },
+    {
+        id: 2,
+        avatar: AVTR2,
+        name: 'Shatta',
+        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Unde inventore explicabo id, assumenda ipsam voluptas quae
+        hic iure facilis iusto fugiat cumque debitis quia maxime animi.`
+    },
+    {
+        id: 3,
+        avatar: AVTR3,
+        name: 'Kwame Despite',
+        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Unde inventore explicabo id, assumenda ipsam voluptas quae
+        hic iure facilis iusto fugiat cumque debitis quia maxime animi.`
+    },
+    {
+        id: 4,
+        avatar: AVTR4,
+        name: 'Nana Ama McBrown',
+        review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Unde inventore explicabo id, assumenda ipsam voluptas quae
+        hic iure facilis iusto fugiat cumque debitis quia maxime animi.`
+    }
+
 ]

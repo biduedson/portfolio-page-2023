@@ -8,16 +8,16 @@ function Portfolio() {
 
             <div className="container portfolio__container">
                 {
-                    portfolio.map((item) => {
+                    portfolio.map(({ id, title, image, github, projectLink }) => {
                         return (
-                            <article className='portfolio__item' key={item.id}>
+                            <article className='portfolio__item' key={id}>
                                 <div className="portfolio__item-image">
-                                    <img src={item.image} alt="" />
+                                    <img src={image} alt="" />
                                 </div>
-                                <h3>This is a portfolio item title</h3>
+                                <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
-                                    <a href={item.github} className='btn'>Github</a>
-                                    <a href={item.projectLink} className='btn btn-primary' target='blank'>Live Demo</a>
+                                    <a href={github} className='btn'>Github</a>
+                                    <a href={projectLink} className='btn btn-primary' target='blank'>Live Demo</a>
                                 </div>
                             </article>
                         )

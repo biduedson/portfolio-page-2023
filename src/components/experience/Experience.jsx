@@ -13,13 +13,13 @@ function Experience() {
                     <h3>Frontent Devolopment</h3>
                     <div className="experience__content">
                         {
-                            frontEndSkills.map((skill) => {
+                            frontEndSkills.map(({ id, language, experience }) => {
                                 return (
-                                    <article className='experience__details' key={skill.id}>
+                                    <article className='experience__details' key={id}>
                                         <BsPatchCheckFill className='experience__details-icon' />
                                         <div>
-                                            <h4>{skill.language}</h4>
-                                            <small className='text-light'>{skill.experience}</small>
+                                            <h4>{language}</h4>
+                                            <small className='text-light'>{experience}</small>
                                         </div>
                                     </article>
                                 )
