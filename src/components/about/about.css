@@ -27,6 +27,7 @@
 .about__me-image:hover {
   transform: rotate(0);
   transition: var(--transition);
+  animation: box-shadow-animation 1s infinite;
 }
 
 .about__cards {

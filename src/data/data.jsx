@@ -1,14 +1,5 @@
-import IMG1 from '../assets/portfolio1.jpg'
-import IMG2 from '../assets/portfolio2.jpg'
-import IMG3 from '../assets/portfolio3.jpg'
-import IMG4 from '../assets/portfolio4.jpg'
-import IMG5 from '../assets/portfolio5.png'
-import IMG6 from '../assets/portfolio6.jpg'
 
-import AVTR1 from '../assets/avatar1.jpg'
-import AVTR2 from '../assets/avatar2.jpg'
-import AVTR3 from '../assets/avatar3.jpg'
-import AVTR4 from '../assets/avatar4.jpg'
+
 
 
 export const frontEndSkills = [
@@ -72,6 +63,12 @@ export const backEndSkills = [
     },
 ]
 
+import IMG1 from '../assets/portfolio1.jpg'
+import IMG2 from '../assets/portfolio2.jpg'
+import IMG3 from '../assets/portfolio3.jpg'
+import IMG4 from '../assets/portfolio4.jpg'
+import IMG5 from '../assets/portfolio5.png'
+import IMG6 from '../assets/portfolio6.jpg'
 export const portfolio = [
     {
         id: 1,
@@ -123,6 +120,10 @@ export const portfolio = [
     }
 ]
 
+import AVTR1 from '../assets/avatar1.jpg'
+import AVTR2 from '../assets/avatar2.jpg'
+import AVTR3 from '../assets/avatar3.jpg'
+import AVTR4 from '../assets/avatar4.jpg'
 export const testimonials = [
     {
         id: 1,
@@ -157,4 +158,31 @@ export const testimonials = [
         hic iure facilis iusto fugiat cumque debitis quia maxime animi.`
     }
 
+]
+
+import { MdOutlineEmail } from 'react-icons/md'
+import { RiMessengerLine } from 'react-icons/ri'
+import { BsWhatsapp } from 'react-icons/bs'
+export const contactMe = [
+    {
+        id: 1,
+        icon: <MdOutlineEmail />,
+        type: 'Email',
+        name: 'biduzao.bidu21@gmail.com',
+        link: 'mailto:biduzao.bidu21@gmail.com'
+    },
+    {
+        id: 2,
+        icon: <RiMessengerLine />,
+        type: 'Messenger',
+        name: 'Edson Gomes',
+        link: 'https://m.me/bidu.edson'
+    },
+    {
+        id: 3,
+        icon: <BsWhatsapp />,
+        type: 'WhatsApp',
+        name: '+5511934867766',
+        link: 'https://api.whatsapp.com/send?phone=5511934867766'
+    },
 ]
