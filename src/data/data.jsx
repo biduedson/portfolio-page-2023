@@ -186,3 +186,29 @@ export const contactMe = [
         link: 'https://api.whatsapp.com/send?phone=5511934867766'
     },
 ]
+
+import { FaFacebookF } from 'react-icons/fa'
+import { FiInstagram } from 'react-icons/fi'
+import { IoLogoTwitter } from 'react-icons/io'
+export const socialsMediias = [
+    {
+        id: 1,
+        icon: <FaFacebookF />,
+        link: 'https://www.facebook.com/bidu.edson'
+    },
+
+    {
+        id: 2,
+        icon: <FiInstagram />,
+        link: 'https://www.instagram.com/biduedson/'
+    },
+
+    {
+        id: 3,
+        icon: <IoLogoTwitter />,
+        link: 'https://api.whatsapp.com/send?phone=5511934867766'
+    },
+]
+
+
+
